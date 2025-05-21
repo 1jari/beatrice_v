@@ -1,0 +1,13 @@
+{
+    "metadata": {
+        "name":     "robot",
+        "author":   "maker",
+        "version":  "0.1.0",
+        "license":  "MIT"
+    },
+    "robot": {
+        "rig": {
+            "size": [21, 12]
+        }
+    }
+}

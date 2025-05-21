@@ -1,0 +1,28 @@
+[package]
+name        =   "beatrice_v"
+version     =   "0.0.1"
+edition     =   "2024"
+description =   "Beatrice V is a Functional-like, Object-Oriented and lightweight Robotics/AI framework"
+repository  =   "https://github.com/Lunoversis/beatrice_v"
+license     =   "MIT"
+
+keywords    =   [   "functional", 
+                    "robotics", 
+                    "runtime", 
+                    "engine", 
+                    "automation "]
+
+categories  =   [   "robotics   "]
+
+[[bin]]
+name        =   "beatrice_v"
+test        =   false
+
+[profile.release]
+opt-level   =   3
+
+[dependencies]
+colored         = "3.0.0"
+rustpython      = "0.4.0"
+serde           = { version = "1.0", features = ["derive"] }
+serde_json      = "1.0"
